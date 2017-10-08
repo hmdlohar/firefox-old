@@ -1,0 +1,45 @@
+{
+    "name": "addon-sdk", 
+    "license": "MPL-2.0", 
+    "homepage": "https://github.com/mozilla/addon-sdk", 
+    "loader": "lib/sdk/loader/cuddlefish.js", 
+    "repository": {
+        "url": "git://github.com/mozilla/addon-sdk.git", 
+        "type": "git"
+    }, 
+    "version": "0.1.18", 
+    "scripts": {
+        "test": "gulp test"
+    }, 
+    "keywords": [
+        "javascript", 
+        "engine", 
+        "addon", 
+        "extension", 
+        "xulrunner", 
+        "firefox", 
+        "browser"
+    ], 
+    "devDependencies": {
+        "gulp": "3.8.11", 
+        "unzip": "0.1.11", 
+        "jpm": "0.0.29", 
+        "lodash": "3.3.1", 
+        "patch-editor": "0.0.1", 
+        "ini-parser": "0.0.2", 
+        "glob": "4.4.2", 
+        "chai": "2.1.1", 
+        "mocha": "2.1.0", 
+        "fs-extra": "0.18.2", 
+        "xmldom": "0.1.19", 
+        "promise": "6.1.0", 
+        "rimraf": "2.3.1", 
+        "async": "0.9.0", 
+        "fx-runner": "0.0.7", 
+        "teacher": "0.0.1"
+    }, 
+    "main": "./lib/index.js", 
+    "unpack": true, 
+    "id": "jid1-MvQ8rXYND3E6gQ", 
+    "description": "Add-on development made easy."
+}

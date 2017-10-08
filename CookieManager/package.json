@@ -1,0 +1,21 @@
+{
+  "name": "cookiemanagerbyhmd",
+  "title": "Cookie Manager",
+  "id": "cookiemanagerbyhmd",
+  "description": "This extension allow you to manage multiple cookies.",
+  "author": "Hmdlohar",
+  "license": "MPL 2.0",
+  "version": "1.0",
+   "preferences": [
+   {
+    "type": "string",
+    "label": "cookie NUm",
+    "name": "cookieNum",
+    "title": "cookie num"
+}
+],
+"options_ui": {
+  "page": "option.html",
+  "browser_style": true
+}
+}

@@ -1,0 +1,61 @@
+{
+  "name": "fbautoadd",
+  "title": "Fb Auto Add and Message",
+  "id": "hmdlohar7",
+  "description": "this is my third firefox addon",
+  "author": "Hmdlohar",
+  "license": "MPL 2.0",
+  "version": "0.1",
+   "preferences": [
+   {
+    "type": "string",
+    "label": "Message1",
+    "name": "msg1",
+    "title": "msg1"
+},
+   {
+    "type": "string",
+    "label": "Message2",
+    "name": "msg2",
+    "title": "msg2"
+},
+   {
+    "type": "string",
+    "label": "Message3",
+    "name": "msg3",
+    "title": "msg3"
+},
+{
+    "name": "autoAdd",
+    "type": "radio",
+    "title": "Auto Add",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "name": "autoMessage",
+    "type": "radio",
+    "title": "Auto Message",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "Off"
+        }
+    ]
+}
+]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "hmdmobcookie",
+  "title": "HMD Mobile Manager",
+  "id": "hmdlohar6",
+  "description": "this is my second firefox addon",
+  "author": "Hmdlohar",
+  "license": "MPL 2.0",
+  "version": "0.1",
+   "preferences": [
+   {
+    "type": "string",
+    "label": "cookie NUm",
+    "name": "cookieNum",
+    "title": "cookie num"
+},
+   {
+    "type": "string",
+    "label": "IMG LINK",
+    "name": "imgLink",
+    "title": "IMG LINK"
+},
+{
+    "name": "imgShow",
+    "type": "radio",
+    "title": "Show IMG",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "name": "handling",
+    "type": "radio",
+    "title": "Page handling",
+    "value": "on",
+    "options": [
+        {
+            "value": "on1",
+            "label": "On"
+        },
+        {
+            "value": "on2",
+            "label": "Add"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "type": "control",
+    "label": "cookieNext>>",
+    "name": "cookieNext",
+    "title": "cookieNext>>"
+},
+{
+    "type": "control",
+    "label": "<<cookieBack",
+    "name": "cookieBack",
+    "title": "<<cookieBack"
+},
+{
+    "type": "control",
+    "label": "Remove All",
+    "name": "removeAll",
+    "title": "Remove Change"
+}
+,{
+    "type": "control",
+    "label": "Import Cookie",
+    "name": "import_cookie",
+    "title": "IMPORT COOKIE"
+}
+,{
+    "type": "control",
+    "label": "Export Cookie",
+    "name": "export_cookie",
+    "title": "EXPOER COOKIE"
+},
+{
+    "type": "control",
+    "label": "click Cookie",
+    "name": "showCookie",
+    "title": "show"
+},
+{
+    "type": "string",
+    "label": "cookieStart",
+    "name": "cookieStart",
+    "title": "cookieStart"
+},
+{
+    "type": "string",
+    "label": "cookieEnd",
+    "name": "cookieEnd",
+    "title": "cookieEnd"
+},
+{
+    "type": "control",
+    "label": "batchImport",
+    "name": "batchImport",
+    "title": "batchImport"
+},
+{
+    "type": "control",
+    "label": "batchExport",
+    "name": "batchExport",
+    "title": "batchExport"
+},
+   {
+    "type": "string",
+    "label": "Msg Fb",
+    "name": "msgFb",
+    "title": "msgFb"
+}
+]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "hmdmobcookielite",
+  "title": "HMD Lite Mobile Manager",
+  "id": "hmc2",
+  "description": "this is my second firefox addon",
+  "author": "Hmdlohar",
+  "license": "MPL 2.0",
+  "version": "0.1",
+   "preferences": [
+   {
+    "type": "string",
+    "value":"1000",
+    "label": "cookie NUm",
+    "name": "cookieNum",
+    "title": "cookie num"
+},
+{
+    "name": "imgShow",
+    "type": "radio",
+    "title": "Show IMG",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "name": "autoLikeStatus",
+    "type": "radio",
+    "title": "Img Like Status",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "name": "fbAutoAdd",
+    "type": "radio",
+    "title": "AutoAdd Status",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "name": "fbAutoMsg",
+    "type": "radio",
+    "title": "AutoMsg Status",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "type": "control",
+    "label": ">>",
+    "name": "cookieNext",
+    "title": ">>"
+},
+{
+    "type": "control",
+    "label": "<<",
+    "name": "cookieBack",
+    "title": "<<"
+},
+{
+    "type": "control",
+    "label": "Remove All",
+    "name": "removeAll",
+    "title": "Remove Change"
+}
+,{
+    "type": "control",
+    "label": "Import Cookie",
+    "name": "import_cookie",
+    "title": "IMPORT COOKIE"
+}
+,{
+    "type": "control",
+    "label": "Export Cookie",
+    "name": "export_cookie",
+    "title": "EXPOER COOKIE"
+},
+{
+    "type": "string",
+    "value":"https://mbasic.facebook.com/story.php?story_fbid=1038417439532771&id=100000935734129",
+    "label": "img Link",
+    "name": "imgLinkNew",
+    "title": "Img Link"
+}
+]
+}

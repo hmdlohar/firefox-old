@@ -1,0 +1,81 @@
+{
+  "name": "hmdlike4like",
+  "title": "LIke4Like Manager",
+  "id": "like4like1",
+  "description": "this is my second firefox addon",
+  "author": "Hmdlohar",
+  "license": "MPL 2.0",
+  "version": "1.1",
+   "preferences": [
+   {
+    "type": "string",
+    "value":"1000",
+    "label": "cookie NUm",
+    "name": "cookieNum",
+    "title": "cookie num"
+},
+{
+    "name": "imgShow",
+    "type": "radio",
+    "title": "Show IMG",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+{
+    "name": "autoLike",
+    "type": "radio",
+    "title": "Auto  Like ",
+    "value": "on",
+    "options": [
+        {
+            "value": "on",
+            "label": "On"
+        },
+        {
+            "value": "off",
+            "label": "OFF"
+        }
+    ]
+},
+
+{
+    "type": "control",
+    "label": ">>",
+    "name": "cookieNext",
+    "title": ">>"
+},
+{
+    "type": "control",
+    "label": "<<",
+    "name": "cookieBack",
+    "title": "<<"
+},
+{
+    "type": "control",
+    "label": "Remove All",
+    "name": "removeAll",
+    "title": "Remove Change"
+}
+,{
+    "type": "control",
+    "label": "Import Cookie",
+    "name": "import_cookie",
+    "title": "IMPORT COOKIE"
+}
+,{
+    "type": "control",
+    "label": "Export Cookie",
+    "name": "export_cookie",
+    "title": "EXPOER COOKIE"
+}
+]
+}
